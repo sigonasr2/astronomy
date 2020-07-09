@@ -1,6 +1,6 @@
 body{
 	background-color: #0d194a;
-	background-image: url("http://45.33.13.215/stars.png");
+	background-image: url("./backgrounds/stars.png");
 	font-family: Copperplate,Verdana;
 	  color: #fff;
 	  text-shadow:
@@ -12,6 +12,11 @@ body{
 		0 0 18px #ccc,
 		0 0 20px #ccc,
 		0 0 30px #ccc;
+}
+
+.baseCalendar{
+	background-color:#6666ff;
+	color:#fff !important;
 }
 
 .starbox{
@@ -67,6 +72,10 @@ body{
   animation-name: fadein;
   animation-duration: 4s;
 }
+.fadein_2 {
+  animation-name: fadein_2;
+  animation-duration: 4s;
+}
 .fadein3 {
   animation-name: fadein;
   animation-duration: 4s;
@@ -88,10 +97,19 @@ body{
   0%   {opacity:0;}
   100%   {opacity:1;}
 }
+@keyframes fadein_2 {
+  0%   {opacity:0;}
+  100%   {opacity:1;}
+}
 @keyframes slowblink {
   0%   {opacity:0;}
   50%   {opacity:1;}
   100%   {opacity:0;}
+}
+@keyframes fadeoutin {
+  0%   {opacity:1;}
+  50%   {opacity:0;}
+  100%   {opacity:1;}
 }
 
 .stars {
