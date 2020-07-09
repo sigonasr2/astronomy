@@ -8,6 +8,8 @@ COPY . /src/app
 
 RUN yarn install
 
+RUN yarn global add nodemon
+
 EXPOSE 3005
 
-CMD [ "npm", "start" ]
+CMD [ "nodemon", "app.js" ]
