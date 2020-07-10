@@ -32,6 +32,10 @@ body{
 	color:#fff;
 }
 
+.profile:hover{
+	background-color:#6666AA;
+}
+
 .header{
 	font: 32px ACROTSRG;
 	font-weight: bold;
@@ -53,6 +57,10 @@ body{
     0 0 90px #0ff,
     0 0 100px #0ff,
     0 0 150px #0ff;
+}
+
+.shadowImage { 
+	box-shadow: 0px 0px 30px #fff;
 }
 
 .glowLight {
